@@ -99,14 +99,19 @@ export default function Experience({
         </div>
 
         {/* Right — bullets */}
-        <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "14px" }}>
+        <ul className="exp-bullets" style={{ 
+          listStyle: "none", 
+          display: "flex", 
+          flexDirection: "column", 
+          gap: "14px" 
+          }}>
           {bullets.map((bullet, i) => (
             <li key={i} style={{
-              fontSize: "0.88rem",
+              fontSize: "1rem",
               color: "var(--muted)",
               paddingLeft: "20px",
               position: "relative",
-              lineHeight: 1.7,
+              lineHeight: 1.8,
             }}>
               <span style={{
                 position: "absolute",
