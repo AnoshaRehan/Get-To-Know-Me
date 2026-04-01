@@ -22,7 +22,7 @@ export default function Hero() {
         pointerEvents: "none",
       }} />
 
-      <div style={{
+      <div className="panel-inner" style={{
         position: "relative",
         zIndex: 2,
         maxWidth: "1000px",

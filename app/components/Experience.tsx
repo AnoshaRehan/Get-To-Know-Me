@@ -35,7 +35,7 @@ export default function Experience({
     }}>
 
       {/* Big background number */}
-      <div style={{
+      <div className="section-num" style={{
         position: "absolute",
         top: "40px",
         right: "60px",
@@ -47,7 +47,7 @@ export default function Experience({
         pointerEvents: "none",
       }}>{number}</div>
 
-      <div style={{
+      <div className="exp-grid panel-inner" style={{
         position: "relative",
         zIndex: 2,
         maxWidth: "1000px",

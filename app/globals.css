@@ -27,3 +27,33 @@ body {
   color: var(--white);
   height: 100%;
 }
+
+@media (max-width: 768px) {
+  .exp-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .panel-inner {
+    padding: 0 50px 0 24px !important;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+
+  .edu-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+  .stats-row {
+    gap: 16px !important;
+    overflow: hidden !important;
+  }
+  .section-num {
+    font-size: 4rem !important;
+    top: 20px !important;
+    right: 30px !important;
+  }
+}

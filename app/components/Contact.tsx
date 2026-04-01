@@ -39,7 +39,7 @@ export default function Contact() {
       }} />
 
       {/* Big background number */}
-      <div style={{
+      <div className="section-num" style={{
         position: "absolute",
         top: "40px",
         right: "60px",
@@ -51,7 +51,7 @@ export default function Contact() {
         pointerEvents: "none",
       }}>07</div>
 
-      <div style={{
+      <div className="panel-inner" style={{
         position: "relative",
         zIndex: 2,
         maxWidth: "1000px",

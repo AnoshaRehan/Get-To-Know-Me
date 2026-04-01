@@ -33,7 +33,7 @@ export default function Skills() {
     }}>
 
       {/* Big background number */}
-      <div style={{
+      <div className="section-num" style={{
         position: "absolute",
         top: "40px",
         right: "60px",
@@ -45,7 +45,7 @@ export default function Skills() {
         pointerEvents: "none",
       }}>05</div>
 
-      <div style={{
+      <div className="panel-inner" style={{
         position: "relative",
         zIndex: 2,
         maxWidth: "1000px",
@@ -72,7 +72,7 @@ export default function Skills() {
         }}>Skills &<br />Technologies</h2>
 
         {/* Grid */}
-        <div style={{
+        <div className="skills-grid" style={{
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
           gap: "20px",

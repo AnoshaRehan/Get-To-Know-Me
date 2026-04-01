@@ -14,7 +14,7 @@ export default function About() {
       background: "var(--navy2)",
     }}>
       {/* Big background number */}
-      <div style={{
+      <div className="section-num" style={{
         position: "absolute",
         top: "40px",
         right: "60px",
@@ -26,7 +26,7 @@ export default function About() {
         pointerEvents: "none",
       }}>01</div>
 
-      <div style={{
+      <div className="panel-inner" style={{
         position: "relative",
         zIndex: 2,
         maxWidth: "1000px",
@@ -71,11 +71,13 @@ export default function About() {
         </p>
 
         {/* Stats */}
-        <div style={{
-          display: "flex",
-          gap: "48px",
-          marginTop: "48px",
-        }}>
+        <div className="stats-row" style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "48px",
+            marginTop: "48px",
+            flexWrap: "nowrap",
+          }}>
           {[
             { num: "4+", label: "Years Experience" },
             { num: "3", label: "Companies" },

@@ -15,7 +15,7 @@ export default function Education() {
     }}>
 
       {/* Big background number */}
-      <div style={{
+      <div className="section-num" style={{
         position: "absolute",
         top: "40px",
         right: "60px",
@@ -27,7 +27,7 @@ export default function Education() {
         pointerEvents: "none",
       }}>06</div>
 
-      <div style={{
+      <div className="panel-inner" style={{
         position: "relative",
         zIndex: 2,
         maxWidth: "1000px",
@@ -54,7 +54,7 @@ export default function Education() {
         }}>Education</h2>
 
         {/* Cards */}
-        <div style={{
+        <div className="edu-grid" style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
           gap: "60px",
