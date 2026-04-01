@@ -57,3 +57,20 @@ body {
     right: 30px !important;
   }
 }
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0) rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100vh) rotate(20deg);
+  }
+}
