@@ -6,7 +6,7 @@ My personal portfolio website built with Next.js and React.
 
 ## About
 
-A fullscreen scroll-snap portfolio showcasing my experience, skills, and education as a software engineer with 4+ years of backend and full-stack experience.
+A fullscreen scroll-snap portfolio showcasing my experience, projects, skills, and education as a software engineer with 4+ years of backend and full-stack experience, and a recently completed M.S. in Computer Science (AI concentration).
 
 ## Built With
 
@@ -18,14 +18,16 @@ A fullscreen scroll-snap portfolio showcasing my experience, skills, and educati
 ## Sections
 
 - About
+- Projects
 - Work Experience
 - Skills & Technologies
 - Education
+- Contact
 
 ## Running Locally
 ```bash
-git clone https://github.com/yourusername/get-to-know-me.git
-cd get-to-know-me
+git clone https://github.com/AnoshaRehan/Get-To-Know-Me.git
+cd Get-To-Know-Me
 npm install
 npm run dev
 ```
