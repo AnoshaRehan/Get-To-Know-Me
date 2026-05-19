@@ -22,10 +22,10 @@ export default function Education() {
         fontFamily: "'Cormorant Garamond', serif",
         fontSize: "7rem",
         fontWeight: 700,
-        color: "rgba(200,169,110,0.08)",
+        color: "rgba(var(--gold-rgb),0.08)",
         userSelect: "none",
         pointerEvents: "none",
-      }}>06</div>
+      }}>07</div>
 
       <div className="panel-inner" style={{
         position: "relative",
@@ -60,11 +60,11 @@ export default function Education() {
           gap: "60px",
         }}>
           {[
-            { status: "In Progress", degree: "Master of Science", school: "East Texas A&M University (formerly Texas A&M University-Commerce)", field: "Computer Science" },
-            { status: "Completed · 2020", degree: "Bachelor of Science", school: "National University of Computer and Emerging Sciences (NUCES - FAST)", field: "Computer Science" },
+            { status: "Completed · May 2026", degree: "Master of Science", school: "East Texas A&M University (formerly Texas A&M University-Commerce)", field: "Computer Science" },
+            { status: "Completed · June 2020", degree: "Bachelor of Science", school: "National University of Computer and Emerging Sciences (NUCES - FAST)", field: "Computer Science" },
           ].map((edu) => (
             <div key={edu.degree} style={{
-              borderLeft: "2px solid rgba(200,169,110,0.3)",
+              borderLeft: "2px solid rgba(var(--gold-rgb),0.3)",
               paddingLeft: "32px",
             }}>
               <div style={{
@@ -91,7 +91,7 @@ export default function Education() {
 
               <div style={{
                 fontSize: "0.78rem",
-                color: "rgba(200,169,110,0.6)",
+                color: "rgba(var(--gold-rgb),0.6)",
                 letterSpacing: "1px",
               }}>{edu.field}</div>
             </div>

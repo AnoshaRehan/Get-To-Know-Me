@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Syne:wght@400;500;700;800&display=swap');
 
 :root {
-  --navy: #080f1a;
-  --navy2: #0d1b2e;
-  --gold: #c8a96e;
-  --gold2: #f0d498;
-  --white: #f5f0e8;
-  --muted: rgba(245,240,232,0.45);
+  --navy: #11131a;
+  --navy2: #1a1d28;
+  --gold: #ff6b5b;
+  --gold2: #ff8c7d;
+  --white: #fefcf7;
+  --muted: rgba(254,252,247,0.55);
+  --gold-rgb: 255, 107, 91;
+  --ink-rgb: 254, 252, 247;
 }
 
 * {
@@ -47,6 +49,11 @@ body {
     grid-template-columns: 1fr !important;
     gap: 32px !important;
   }
+
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
   .stats-row {
     gap: 16px !important;
     overflow: hidden !important;
@@ -60,6 +67,21 @@ body {
     font-size: 1rem !important;
     line-height: 1.9 !important;
   }
+}
+
+@keyframes pulseDot {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(74, 222, 128, 0);
+  }
+}
+
+@keyframes roleFade {
+  0% { opacity: 0; transform: translateY(6px); }
+  15%, 85% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-6px); }
 }
 
 @keyframes floatUp {

@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 const sections = [
   { id: "hero", label: "Home" },
   { id: "about", label: "About" },
+  { id: "projects", label: "Projects" },
   { id: "cxc", label: "CXC Global" },
   { id: "dubizzle", label: "Dubizzle" },
   { id: "lfd", label: "Love for Data" },
@@ -66,7 +67,7 @@ export default function DotNav() {
             width: "8px",
             height: "8px",
             borderRadius: "50%",
-            background: active === id ? "var(--gold)" : "rgba(200,169,110,0.3)",
+            background: active === id ? "var(--gold)" : "rgba(var(--gold-rgb),0.3)",
             border: "1px solid var(--gold)",
             display: "block",
             transform: active === id ? "scale(1.4)" : "scale(1)",

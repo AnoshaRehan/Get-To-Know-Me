@@ -42,7 +42,7 @@ export default function Experience({
         fontFamily: "'Cormorant Garamond', serif",
         fontSize: "7rem",
         fontWeight: 700,
-        color: "rgba(200,169,110,0.08)",
+        color: "rgba(var(--gold-rgb),0.08)",
         userSelect: "none",
         pointerEvents: "none",
       }}>{number}</div>
@@ -87,7 +87,7 @@ export default function Experience({
 
           <div style={{
             fontSize: "0.78rem",
-            color: "rgba(200,169,110,0.5)",
+            color: "rgba(var(--gold-rgb),0.5)",
           }}>{location}</div>
 
           <div style={{

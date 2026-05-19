@@ -21,7 +21,7 @@ export default function About() {
         fontFamily: "'Cormorant Garamond', serif",
         fontSize: "7rem",
         fontWeight: 700,
-        color: "rgba(200,169,110,0.08)",
+        color: "rgba(var(--gold-rgb),0.08)",
         userSelect: "none",
         pointerEvents: "none",
       }}>01</div>
@@ -65,9 +65,9 @@ export default function About() {
           I'm a backend-focused engineer with a passion for building{" "}
           <strong style={{ color: "var(--white)", fontWeight: 700 }}>scalable, reliable systems</strong>.
           From migrating millions of images to redesigning search relevance with fuzzy matching -
-          I thrive at the intersection of performance, data, and product impact. Currently deepening
-          expertise through a{" "}
-          <strong style={{ color: "var(--white)", fontWeight: 700 }}>Master's in Computer Science</strong>.
+          I thrive at the intersection of performance, data, and product impact. Recently completed a{" "}
+          <strong style={{ color: "var(--white)", fontWeight: 700 }}>Master's in Computer Science</strong>{" "}
+          with a concentration in Artificial Intelligence.
         </p>
 
         {/* Stats */}

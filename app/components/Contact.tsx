@@ -34,7 +34,7 @@ export default function Contact() {
       <div style={{
         position: "absolute",
         inset: 0,
-        background: "radial-gradient(ellipse at 30% 60%, rgba(200,169,110,0.06) 0%, transparent 60%)",
+        background: "radial-gradient(ellipse at 30% 60%, rgba(var(--gold-rgb),0.06) 0%, transparent 60%)",
         pointerEvents: "none",
       }} />
 
@@ -46,7 +46,7 @@ export default function Contact() {
         fontFamily: "'Cormorant Garamond', serif",
         fontSize: "7rem",
         fontWeight: 700,
-        color: "rgba(200,169,110,0.08)",
+        color: "rgba(var(--gold-rgb),0.08)",
         userSelect: "none",
         pointerEvents: "none",
       }}>07</div>

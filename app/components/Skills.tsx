@@ -40,10 +40,10 @@ export default function Skills() {
         fontFamily: "'Cormorant Garamond', serif",
         fontSize: "7rem",
         fontWeight: 700,
-        color: "rgba(200,169,110,0.08)",
+        color: "rgba(var(--gold-rgb),0.08)",
         userSelect: "none",
         pointerEvents: "none",
-      }}>05</div>
+      }}>06</div>
 
       <div className="panel-inner" style={{
         position: "relative",
@@ -83,10 +83,10 @@ export default function Skills() {
               onMouseEnter={() => setHoveredCard(i)}
               onMouseLeave={() => setHoveredCard(null)}
               style={{
-                border: `1px solid ${hoveredCard === i ? "rgba(200,169,110,0.4)" : "rgba(200,169,110,0.15)"}`,
+                border: `1px solid ${hoveredCard === i ? "rgba(var(--gold-rgb),0.4)" : "rgba(var(--gold-rgb),0.15)"}`,
                 padding: "24px",
                 borderRadius: "2px",
-                background: hoveredCard === i ? "rgba(200,169,110,0.03)" : "transparent",
+                background: hoveredCard === i ? "rgba(var(--gold-rgb),0.03)" : "transparent",
                 transition: "all 0.3s",
                 cursor: "default",
               }}
@@ -104,9 +104,9 @@ export default function Skills() {
                   <span key={skill} style={{
                     fontSize: "0.75rem",
                     padding: "5px 12px",
-                    border: "1px solid rgba(245,240,232,0.12)",
+                    border: "1px solid rgba(var(--ink-rgb),0.12)",
                     borderRadius: "100px",
-                    color: "rgba(245,240,232,0.7)",
+                    color: "rgba(var(--ink-rgb),0.7)",
                     fontWeight: 500,
                   }}>{skill}</span>
                 ))}
