@@ -24,14 +24,14 @@ export default function Experience({
   return (
     <section id={id} style={{
       scrollSnapAlign: "start",
-      height: "100vh",
+      minHeight: "100vh",
       width: "100%",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       position: "relative",
-      overflow: "hidden",
       background: dark ? "var(--navy2)" : "var(--navy)",
+      padding: "80px 0",
     }}>
 
       {/* Big background number */}
