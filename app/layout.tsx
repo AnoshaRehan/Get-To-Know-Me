@@ -3,7 +3,7 @@ import "./globals.css";
 
 const siteUrl = "https://anosharehan.netlify.app";
 const description =
-  "Backend & full-stack engineer with 4+ years of production experience. Recently completed a Master's in Computer Science (AI concentration). Open to work — Texas, USA.";
+  "Backend & full-stack engineer with 4+ years of production experience. Recently completed a Master's in Computer Science (AI concentration). Open to work and willing to relocate.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -23,7 +23,9 @@ export const metadata: Metadata = {
     "Django",
     "TypeScript",
     "React",
+    "California",
     "Texas",
+    "Open to Relocation",
     "RAG",
     "LLM",
     "Portfolio",

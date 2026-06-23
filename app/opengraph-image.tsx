@@ -64,7 +64,7 @@ export default function OpengraphImage() {
               background: "#4ade80",
             }}
           />
-          Open to Work · Texas, USA
+          Open to Work · California, USA
         </div>
 
         {/* Center: name */}
