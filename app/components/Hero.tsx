@@ -192,7 +192,7 @@ export default function Hero() {
             }} />
             Open to Work
             <span style={{ color: "var(--muted)", margin: "0 2px" }}>·</span>
-            <span style={{ color: "var(--muted)" }}>California, USA</span>
+            <span style={{ color: "var(--muted)" }}>Texas, USA</span>
           </div>
         </div>
 
